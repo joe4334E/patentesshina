@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Reports() {
+export default function ReportsCasheer() {
   return (
     <div>Reports</div>
   )

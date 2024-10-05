@@ -1,5 +1,5 @@
 import "../App.css";
-import {Outlet} from 'react-router-dom'
+import { Outlet, Link } from 'react-router-dom';
 import React, { useState } from "react";
 import {
   Menu,
@@ -30,17 +30,15 @@ const DashboardAdmin = () => {
       title: "Usuarios",
       icon: Users,
       submenu: [
-        { title: "Vista Usuarios", link: "/admin/usuarios/vista" },
-        { title: "Agregar Usuario", link: "/admin/usuarios/agregar" },
-        { title: "Roles de Usuario", link: "/admin/usuarios/roles" },
+        { title: "Vista Usuarios", link: "/admin/user/" },
+        { title: "Roles", link: "/admin/roles" },
       ],
     },
     {
       title: "Trámites",
       icon: FileText,
       submenu: [
-        { title: "Lista de Trámites", link: "/admin/tramites/lista" },
-        { title: "Nuevo Trámite", link: "/admin/tramites/nuevo" },
+        { title: "Tramites", link: "/admin/tramites/" },
       ],
     },
   ];
@@ -79,7 +77,7 @@ const DashboardAdmin = () => {
               className="w-20 h-20 rounded-full mx-auto mb-2"
             />
             <p className="font-bold">Admin Dashboard</p>
-            <p className="font-medium">Bienvenido a su perfil de usuario</p>
+            <p className="font-medium">Bienvenido a su perfil de Administrador</p>
           </div>
         )}
 
@@ -108,8 +106,8 @@ const DashboardAdmin = () => {
                   )}
                 </button>
               ) : (
-                <a
-                  href={item.link}
+                <Link
+                  to={item.link}
                   className={`w-full text-left px-4 py-2 hover:${
                     isDarkMode ? "bg-gray-700" : "bg-gray-200"
                   } transition-all duration-300 flex items-center rounded-lg mx-2`}
@@ -120,20 +118,20 @@ const DashboardAdmin = () => {
                       {item.title}
                     </span>
                   )}
-                </a>
+                </Link>
               )}
               {isOpen && item.submenu && activeDropdown === index && (
                 <div className="ml-4 mt-2">
                   {item.submenu.map((subItem, subIndex) => (
-                    <a
+                    <Link
                       key={subIndex}
-                      href={subItem.link}
+                      to={subItem.link}
                       className={`block py-2 px-4 hover:${
                         isDarkMode ? "bg-gray-700" : "bg-gray-200"
                       } transition-all duration-300 rounded-lg`}
                     >
                       {subItem.title}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               )}
@@ -141,19 +139,21 @@ const DashboardAdmin = () => {
           ))}
         </nav>
 
-        <a
-          href="/logout"
+        <Link
+          to="/logout"
           className={`absolute bottom-4 left-4 flex items-center px-4 py-2 ${
             isDarkMode ? "bg-red-600" : "bg-red-500"
           } hover:bg-red-600 transition-all duration-300 rounded-full group overflow-hidden`}
         >
           <LogOut className="transition-transform duration-300 group-hover:translate-x-1" />
           {isOpen && <span className="ml-2">Cerrar Sesión</span>}
-        </a>
+        </Link>
       </div>
-      <div className={`ml-64 p-4`}>
-      <Outlet /> {/* Aquí se renderiza el contenido de las subrutas */}
-    </div>
+
+      <div className={`ml-16 p-2`}>
+        <Outlet /> {/* Aquí se renderiza el contenido de las subrutas */}
+      </div>
+
       <button
         onClick={toggleDarkMode}
         className={`fixed bottom-4 right-4 p-2 rounded-full ${

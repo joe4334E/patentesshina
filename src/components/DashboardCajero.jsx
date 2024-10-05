@@ -1,5 +1,6 @@
 import "../App.css";
 import React, { useState } from "react";
+import { Link, Outlet } from "react-router-dom";
 import {
   Menu,
   X,
@@ -20,7 +21,7 @@ const DashboardCajero = () => {
 
   const menuItems = [
     { title: "Home", icon: Home, link: "/cajero/home" },
-    { title: "Vista Usuarios", icon: Users, link: "/cajero/usuarios" },
+    { title: "Vista Usuarios", icon: Users, link: "/cajero/user" },
     { title: "Reportes", icon: FileText, link: "/cajero/reportes" },
   ];
 
@@ -63,9 +64,9 @@ const DashboardCajero = () => {
 
         <nav className="mt-8">
           {menuItems.map((item, index) => (
-            <a
+            <Link
               key={index}
-              href={item.link}
+              to={item.link}
               className={`w-full text-left px-4 py-2 hover:${
                 isDarkMode ? "bg-gray-700" : "bg-gray-200"
               } transition-all duration-300 flex items-center rounded-lg mx-2 mb-4`}
@@ -76,19 +77,23 @@ const DashboardCajero = () => {
                   {item.title}
                 </span>
               )}
-            </a>
+            </Link>
           ))}
         </nav>
 
-        <a
-          href="/logout"
+        <Link
+          to="/logout"
           className={`absolute bottom-4 left-4 flex items-center px-4 py-2 ${
             isDarkMode ? "bg-red-600" : "bg-red-500"
           } hover:bg-red-600 transition-all duration-300 rounded-full group overflow-hidden`}
         >
           <LogOut className="transition-transform duration-300 group-hover:translate-x-1" />
           {isOpen && <span className="ml-2">Cerrar Sesión</span>}
-        </a>
+        </Link>
+      </div>
+
+      <div className={`ml-16 p-2`}>
+        <Outlet /> {/* Aquí se renderiza el contenido de las subrutas */}
       </div>
 
       <button
