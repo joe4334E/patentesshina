@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "codtramite": "T001",
+      "codactividadeconomica": 1,
+      "codcomerciante": 1,
+      "fechainicio": "2024-01-01",
+      "fechafin": "2024-01-15",
+      "estadodeuda": "Pagado",
+      "estadopago": "Completado",
+      "gestion": "Registro de patente de comercio"
+    },
+    {
+      "id": 2,
+      "codtramite": "T002",
+      "codactividadeconomica": 2,
+      "codcomerciante": 2,
+      "fechainicio": "2024-02-01",
+      "fechafin": "2024-02-20",
+      "estadodeuda": "Pendiente",
+      "estadopago": "En Progreso",
+      "gestion": "Renovación de licencia de funcionamiento"
+    },
+    {
+      "id": 3,
+      "codtramite": "T003",
+      "codactividadeconomica": 3,
+      "codcomerciante": 3,
+      "fechainicio": "2024-03-01",
+      "fechafin": "2024-03-10",
+      "estadodeuda": "No Pagado",
+      "estadopago": "Pendiente",
+      "gestion": "Solicitud de certificación de estado"
+    },
+    {
+      "id": 4,
+      "codtramite": "T004",
+      "codactividadeconomica": 1,
+      "codcomerciante": 1,
+      "fechainicio": "2024-04-01",
+      "fechafin": "2024-04-30",
+      "estadodeuda": "Pagado",
+      "estadopago": "Completado",
+      "gestion": "Registro de cambio de actividad económica"
+    },
+    {
+      "id": 5,
+      "codtramite": "T005",
+      "codactividadeconomica": 2,
+      "codcomerciante": 2,
+      "fechainicio": "2024-05-15",
+      "fechafin": "2024-05-25",
+      "estadodeuda": "Pendiente",
+      "estadopago": "En Progreso",
+      "gestion": "Solicitud de licencia de funcionamiento temporal"
+    }
+  ]
+  

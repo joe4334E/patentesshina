@@ -9,21 +9,34 @@ import {
   Home,
   Users,
   FileText,
-  Plus,
   Sun,
   Moon,
 } from "lucide-react";
 
+/**
+ * Componente DashboardAdmin
+ * 
+ * Este componente representa el panel de control para los administradores. 
+ * Contiene una barra lateral que permite la navegación entre diferentes secciones de la aplicación. 
+ * Además, permite alternar entre el modo claro y oscuro.
+ */
 const DashboardAdmin = () => {
+  // Estado para gestionar la visibilidad de la barra lateral
   const [isOpen, setIsOpen] = useState(false);
+  // Estado para manejar el menú desplegable activo
   const [activeDropdown, setActiveDropdown] = useState(null);
+  // Estado para gestionar el modo oscuro
   const [isDarkMode, setIsDarkMode] = useState(false);
 
+  // Función para alternar la visibilidad de la barra lateral
   const toggleSidebar = () => setIsOpen(!isOpen);
+  // Función para alternar la visibilidad del menú desplegable
   const toggleDropdown = (index) =>
     setActiveDropdown(activeDropdown === index ? null : index);
+  // Función para alternar entre modo claro y oscuro
   const toggleDarkMode = () => setIsDarkMode(!isDarkMode);
 
+  // Definición de los elementos del menú
   const menuItems = [
     { title: "Home", icon: Home, link: "/admin/home" },
     {
@@ -39,6 +52,8 @@ const DashboardAdmin = () => {
       icon: FileText,
       submenu: [
         { title: "Tramites", link: "/admin/tramites/" },
+        { title: "Reportes", link: "/admin/reportes" },
+
       ],
     },
   ];
@@ -49,6 +64,7 @@ const DashboardAdmin = () => {
         isDarkMode ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-800"
       }`}
     >
+      {/* Contenedor de la barra lateral */}
       <div
         className={`fixed top-0 left-0 h-full ${
           isDarkMode ? "bg-gray-800" : "bg-white"
@@ -56,6 +72,7 @@ const DashboardAdmin = () => {
           isOpen ? "w-64" : "w-16"
         } overflow-hidden`}
       >
+        {/* Botón para alternar la visibilidad de la barra lateral */}
         <div className="p-4 flex justify-center">
           <button
             onClick={toggleSidebar}
@@ -69,10 +86,11 @@ const DashboardAdmin = () => {
           </button>
         </div>
 
+        {/* Información del usuario, visible solo si la barra lateral está abierta */}
         {isOpen && (
           <div className="p-4 text-center">
             <img
-              src="/api/placeholder/100/100"
+              src="/api/placeholder/100/100" // Imagen de avatar de administrador
               alt="Admin Avatar"
               className="w-20 h-20 rounded-full mx-auto mb-2"
             />
@@ -81,9 +99,11 @@ const DashboardAdmin = () => {
           </div>
         )}
 
+        {/* Navegación del menú */}
         <nav className="mt-8">
           {menuItems.map((item, index) => (
             <div key={index} className="mb-4">
+              {/* Si el elemento tiene un submenú */}
               {item.submenu ? (
                 <button
                   onClick={() => toggleDropdown(index)}
@@ -91,12 +111,14 @@ const DashboardAdmin = () => {
                     isDarkMode ? "bg-gray-700" : "bg-gray-200"
                   } transition-all duration-300 flex items-center rounded-lg mx-2`}
                 >
+                  {/* Icono del elemento del menú */}
                   <item.icon className="mr-2 transition-transform duration-300 transform group-hover:scale-110" />
                   {isOpen && (
                     <>
                       <span className="transition-opacity duration-300">
                         {item.title}
                       </span>
+                      {/* Icono de flecha para indicar el submenú */}
                       <ChevronDown
                         className={`ml-auto transition-transform duration-300 ${
                           activeDropdown === index ? "transform rotate-180" : ""
@@ -106,6 +128,7 @@ const DashboardAdmin = () => {
                   )}
                 </button>
               ) : (
+                // Enlace a la ruta si no hay submenú
                 <Link
                   to={item.link}
                   className={`w-full text-left px-4 py-2 hover:${
@@ -120,6 +143,7 @@ const DashboardAdmin = () => {
                   )}
                 </Link>
               )}
+              {/* Renderiza el submenú si está activo */}
               {isOpen && item.submenu && activeDropdown === index && (
                 <div className="ml-4 mt-2">
                   {item.submenu.map((subItem, subIndex) => (
@@ -130,7 +154,7 @@ const DashboardAdmin = () => {
                         isDarkMode ? "bg-gray-700" : "bg-gray-200"
                       } transition-all duration-300 rounded-lg`}
                     >
-                      {subItem.title}
+                      {subItem.title} {/* Título del submenú */}
                     </Link>
                   ))}
                 </div>
@@ -139,6 +163,7 @@ const DashboardAdmin = () => {
           ))}
         </nav>
 
+        {/* Botón para cerrar sesión */}
         <Link
           to="/logout"
           className={`absolute bottom-4 left-4 flex items-center px-4 py-2 ${
@@ -150,10 +175,12 @@ const DashboardAdmin = () => {
         </Link>
       </div>
 
+      {/* Contenedor para el contenido de las subrutas */}
       <div className={`ml-16 p-2`}>
         <Outlet /> {/* Aquí se renderiza el contenido de las subrutas */}
       </div>
 
+      {/* Botón para alternar entre modo claro y oscuro */}
       <button
         onClick={toggleDarkMode}
         className={`fixed bottom-4 right-4 p-2 rounded-full ${

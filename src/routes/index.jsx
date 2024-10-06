@@ -13,15 +13,15 @@ import Login from "../components/Login";
 import Home from "../pages/admin/Home";
 import ViewUser from "../pages/admin/ViewUser";
 import RoleUser from "../pages/admin/RoleUser";
+import TramiteList from "../pages/admin/TramiteList.jsx";
+import ReportesAdm from "../pages/admin/ReportesAdm.jsx";
 
 // Rutas para el dashboard del cajero
-import CasheerHome from "../pages/cajero/CasheerHome.jsx";
 import ViewList from "../pages/cajero/ViewList.jsx";
 import ReportsCasheer from "../pages/cajero/ReportsCasheer.jsx";
 
 // Rutas para el dashboard del usuario
 import HomeUser from "../pages/usuario/HomeUser.jsx";
-import Profile from "../pages/usuario/Profile.jsx";
 import Reports from "../pages/usuario/Reports.jsx";
 
 /**
@@ -42,13 +42,11 @@ function AppRoutes() {
       {/* Rutas para el dashboard del usuario */}
       <Route path="/usuario/*" element={<DashboardUsuario />}>
         <Route path="home" element={<HomeUser />} />
-        <Route path="perfil" element={<Profile />} />
         <Route path="reportes" element={<Reports />} />
       </Route>
 
       {/* Rutas para el dashboard del cajero */}
       <Route path="/cajero/*" element={<DashboardCajero />}>
-        <Route path="home" element={<CasheerHome />} />
         <Route path="user" element={<ViewList />} />
         <Route path="reportes" element={<ReportsCasheer />} />
       </Route>
@@ -58,6 +56,8 @@ function AppRoutes() {
         <Route path="home" element={<Home />} />
         <Route path="user" element={<ViewUser />} />
         <Route path="roles" element={<RoleUser />} />
+        <Route path="tramites" element={<TramiteList />} />
+        <Route path="reportes" element={<ReportesAdm />} />
       </Route>
 
       {/* Ruta de redirección para cualquier ruta desconocida */}

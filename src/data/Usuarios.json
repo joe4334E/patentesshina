@@ -1,0 +1,23 @@
+[
+    { "id": 1, "correo": "admin1@example.com", "password": "password123", "roleid": "admin" },
+    { "id": 2, "correo": "admin2@example.com", "password": "password123", "roleid": "admin" },
+    { "id": 3, "correo": "admin3@example.com", "password": "password123", "roleid": "admin" },
+    { "id": 4, "correo": "admin4@example.com", "password": "password123", "roleid": "admin" },
+    { "id": 5, "correo": "cashier1@example.com", "password": "password123", "roleid": "cashier" },
+    { "id": 6, "correo": "cashier2@example.com", "password": "password123", "roleid": "cashier" },
+    { "id": 7, "correo": "user1@example.com", "password": "password123", "roleid": "user" },
+    { "id": 8, "correo": "user2@example.com", "password": "password123", "roleid": "user" },
+    { "id": 9, "correo": "user3@example.com", "password": "password123", "roleid": "user" },
+    { "id": 10, "correo": "user4@example.com", "password": "password123", "roleid": "user" },
+    { "id": 11, "correo": "user5@example.com", "password": "password123", "roleid": "user" },
+    { "id": 12, "correo": "user6@example.com", "password": "password123", "roleid": "user" },
+    { "id": 13, "correo": "user7@example.com", "password": "password123", "roleid": "user" },
+    { "id": 14, "correo": "user8@example.com", "password": "password123", "roleid": "user" },
+    { "id": 15, "correo": "user9@example.com", "password": "password123", "roleid": "user" },
+    { "id": 16, "correo": "user10@example.com", "password": "password123", "roleid": "user" },
+    { "id": 17, "correo": "user11@example.com", "password": "password123", "roleid": "user" },
+    { "id": 18, "correo": "user12@example.com", "password": "password123", "roleid": "user" },
+    { "id": 19, "correo": "user13@example.com", "password": "password123", "roleid": "user" },
+    { "id": 20, "correo": "user14@example.com", "password": "password123", "roleid": "user" }
+  ]
+  

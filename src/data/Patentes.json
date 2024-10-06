@@ -1,0 +1,19 @@
+[
+    {
+      "cod": "1",
+      "nombre": "Patente Permanente"
+    },
+    {
+      "cod": "2",
+      "nombre": "Patente Eventual"
+    },
+    {
+      "cod": "3",
+      "nombre": "Patente Única"
+    },
+    {
+      "cod": "4",
+      "nombre": "Patente Temporal"
+    }
+  ]
+  

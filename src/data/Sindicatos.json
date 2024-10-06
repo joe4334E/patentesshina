@@ -1,0 +1,107 @@
+[
+    {
+      "id": 1,
+      "nombre": "Asoc Comida 25 de febrero",
+      "area": "distrito 1",
+      "zona": "zona A",
+      "createdAt": "2024-09-18T21:35:16.000Z",
+      "updatedAt": "2024-09-18T21:35:16.000Z"
+    },
+    {
+      "id": 2,
+      "nombre": "Asoc. Gastronomica Union 18 de Junio",
+      "area": "distrito 1",
+      "zona": "zona A",
+      "createdAt": "2024-09-18T21:35:16.000Z",
+      "updatedAt": "2024-09-18T21:35:16.000Z"
+    },
+    {
+      "id": 3,
+      "nombre": "Sindicato Mixto 26 de Mayo",
+      "area": "distrito 1",
+      "zona": "zona A",
+      "createdAt": "2024-09-18T21:35:16.000Z",
+      "updatedAt": "2024-09-18T21:35:16.000Z"
+    },
+    {
+      "id": 4,
+      "nombre": "Sindicato Mixto 23 de Marzo",
+      "area": "distrito 1",
+      "zona": "zona A",
+      "createdAt": "2024-09-18T21:35:16.000Z",
+      "updatedAt": "2024-09-18T21:35:16.000Z"
+    },
+    {
+      "id": 5,
+      "nombre": "Sindicato Mixto 20 de Enero",
+      "area": "distrito 1",
+      "zona": "zona A",
+      "createdAt": "2024-09-18T21:35:16.000Z",
+      "updatedAt": "2024-09-18T21:35:16.000Z"
+    },
+    {
+      "id": 6,
+      "nombre": "Sindicato Mixto 25 de Octubre",
+      "area": "distrito 1",
+      "zona": "zona A",
+      "createdAt": "2024-09-18T21:35:16.000Z",
+      "updatedAt": "2024-09-18T21:35:16.000Z"
+    },
+    {
+      "id": 7,
+      "nombre": "Asociacion Mixto 10 de Agosto",
+      "area": "distrito 1",
+      "zona": "zona A",
+      "createdAt": "2024-09-18T21:35:16.000Z",
+      "updatedAt": "2024-09-18T21:35:16.000Z"
+    },
+    {
+      "id": 8,
+      "nombre": "Sindicato Mixto Panamericana",
+      "area": "distrito 1",
+      "zona": "zona A",
+      "createdAt": "2024-09-18T21:35:16.000Z",
+      "updatedAt": "2024-09-18T21:35:16.000Z"
+    },
+    {
+      "id": 9,
+      "nombre": "Sindicato Mixto 5 de Octubre",
+      "area": "distrito 1",
+      "zona": "zona A",
+      "createdAt": "2024-09-18T21:35:16.000Z",
+      "updatedAt": "2024-09-18T21:35:16.000Z"
+    },
+    {
+      "id": 10,
+      "nombre": "Sindicato Mixto 20 de JUNIO",
+      "area": "distrito 1",
+      "zona": "zona A",
+      "createdAt": "2024-09-18T21:35:16.000Z",
+      "updatedAt": "2024-09-18T21:35:16.000Z"
+    },
+    {
+      "id": 11,
+      "nombre": "Mercado La Paz Tropico",
+      "area": "distrito 1",
+      "zona": "zona A",
+      "createdAt": "2024-09-18T21:35:16.000Z",
+      "updatedAt": "2024-09-18T21:35:16.000Z"
+    },
+    {
+      "id": 12,
+      "nombre": "venta de Coca",
+      "area": "distrito 1",
+      "zona": "zona A",
+      "createdAt": "2024-09-18T21:35:16.000Z",
+      "updatedAt": "2024-09-18T21:35:16.000Z"
+    },
+    {
+      "id": 13,
+      "nombre": "Venta de Capuchino",
+      "area": "distrito 1",
+      "zona": "zona A",
+      "createdAt": "2024-09-18T21:35:16.000Z",
+      "updatedAt": "2024-09-18T21:35:16.000Z"
+    }
+  ]
+  

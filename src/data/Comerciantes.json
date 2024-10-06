@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "nombre": "Comerciante Uno",
+        "apellidopaterno": "Pérez",
+        "apellidomaterno": "González",
+        "ci": "12345678",
+        "expd": "LP",
+        "direccion": "Av. Siempre Viva 123",
+        "otb": "OTB 1",
+        "nombrecomercio": "Comercio Uno"
+    },
+    {
+        "id": 2,
+        "nombre": "Comerciante Dos",
+        "apellidopaterno": "López",
+        "apellidomaterno": "Martínez",
+        "ci": "87654321",
+        "expd": "CB",
+        "direccion": "Calle Falsa 456",
+        "otb": "OTB 2",
+        "nombrecomercio": "Comercio Dos"
+    }
+]

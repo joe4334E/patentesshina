@@ -1,0 +1,1668 @@
+
+[
+  {
+    "id": 1,
+    "codactividad": "1",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Industrias",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 2,
+    "codactividad": "1.1",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Industrias",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 3,
+    "codactividad": "1.1.01",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Industrias",
+    "rotulocomercial": "Envasadoras y Similares",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 4,
+    "codactividad": "1.1.02",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Industrias",
+    "rotulocomercial": "Aserraderos y Barracas",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 5,
+    "codactividad": "1.1.03",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Industrias",
+    "rotulocomercial": "Indistrias Productivas",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 6,
+    "codactividad": "1.1.04",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Industrias",
+    "rotulocomercial": "Granjas Avicolas",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 7,
+    "codactividad": "1.1.05",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Industrias",
+    "rotulocomercial": "Granjas Piscicolas y Apicultura",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 8,
+    "codactividad": "1.1.06",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Industrias",
+    "rotulocomercial": "Viveros de Floricultura entre otros",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 9,
+    "codactividad": "1.1.07",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Industrias",
+    "rotulocomercial": "Peladoras de Grano",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 10,
+    "codactividad": "1.2",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 11,
+    "codactividad": "1.2.01",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": "Talleres de carpinteria",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 12,
+    "codactividad": "1.2.02",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": "Talleres de Mecanica Automotriz",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 13,
+    "codactividad": "1.2.03",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": "Taller electronico en Radio Tv",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 14,
+    "codactividad": "1.2.04",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": "Taller de electronica automotriz",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 15,
+    "codactividad": "1.2.05",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": "Taller de Motos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 16,
+    "codactividad": "1.2.06",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": "Taller de Soldadura",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 17,
+    "codactividad": "1.2.07",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": "Taller de Gomeria",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 18,
+    "codactividad": "1.2.08",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": "Taller de Bicicletas",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 19,
+    "codactividad": "1.2.09",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": "Taller Artesanal",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 20,
+    "codactividad": "1.2.10",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": "Lavadero de Vehiculos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 21,
+    "codactividad": "1.2.11",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": "Taller de Torneria",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 22,
+    "codactividad": "1.2.12",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": "Taller de Chaperia y Pintura",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 23,
+    "codactividad": "1.2.13",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": "Imprentas",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 24,
+    "codactividad": "1.2.14",
+    "tipoactividad": "INDUSTRIAS Y TALLERES EN GENERAL",
+    "descripcionactividad": "Talleres en General",
+    "rotulocomercial": "Otros afines no especificados",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 25,
+    "codactividad": "2",
+    "tipoactividad": "SERVICIOS EMPRESARIALES",
+    "descripcionactividad": "De Transporte Terrestre",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 26,
+    "codactividad": "2.1",
+    "tipoactividad": "SERVICIOS EMPRESARIALES",
+    "descripcionactividad": "De Transporte Terrestre",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 27,
+    "codactividad": "2.1.01",
+    "tipoactividad": "SERVICIOS EMPRESARIALES",
+    "descripcionactividad": "De Transporte Terrestre",
+    "rotulocomercial": "Empresas de micros, buses y minibuses interprovinvial-Interdepartamental",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 28,
+    "codactividad": "2.1.02",
+    "tipoactividad": "SERVICIOS EMPRESARIALES",
+    "descripcionactividad": "De Transporte Terrestre",
+    "rotulocomercial": "Empresas de Trufis y Taxis servicio urbano",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 29,
+    "codactividad": "2.1.03",
+    "tipoactividad": "SERVICIOS EMPRESARIALES",
+    "descripcionactividad": "De Transporte Terrestre",
+    "rotulocomercial": "Empresas de Moto Taxis",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 30,
+    "codactividad": "2.2",
+    "tipoactividad": "SERVICIOS EMPRESARIALES",
+    "descripcionactividad": "Establecimientos Financieros",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 31,
+    "codactividad": "2.2.01",
+    "tipoactividad": "SERVICIOS EMPRESARIALES",
+    "descripcionactividad": "Establecimientos Financieros",
+    "rotulocomercial": "Agencia de Bancos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 32,
+    "codactividad": "2.2.02",
+    "tipoactividad": "SERVICIOS EMPRESARIALES",
+    "descripcionactividad": "Establecimientos Financieros",
+    "rotulocomercial": "Cooperativas de Ahorro y Creditos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 33,
+    "codactividad": "3",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Hoteles, residenciales y otros afines",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 34,
+    "codactividad": "3.1",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Hoteles, residenciales y otros afines",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 35,
+    "codactividad": "3.1.01",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Hoteles, residenciales y otros afines",
+    "rotulocomercial": "Hoteles",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 36,
+    "codactividad": "3.1.02",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Hoteles, residenciales y otros afines",
+    "rotulocomercial": "Moteles",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 37,
+    "codactividad": "3.1.03",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Hoteles, residenciales y otros afines",
+    "rotulocomercial": "Residenciales",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 38,
+    "codactividad": "3.1.04",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Hoteles, residenciales y otros afines",
+    "rotulocomercial": "Alojamientos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 39,
+    "codactividad": "3.1.05",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Hoteles, residenciales y otros afines",
+    "rotulocomercial": "Campamentos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 40,
+    "codactividad": "3.2",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Restaurantes y otros afines",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 41,
+    "codactividad": "3.2.01",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Restaurantes y otros afines",
+    "rotulocomercial": "Provision, Transformacion y Almacenamiento de Alimentos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 42,
+    "codactividad": "3.2.02",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Restaurantes y otros afines",
+    "rotulocomercial": "Restaurantes",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 43,
+    "codactividad": "3.2.03",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Restaurantes y otros afines",
+    "rotulocomercial": "Bares y Cantinas",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 44,
+    "codactividad": "3.2.04",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Restaurantes y otros afines",
+    "rotulocomercial": "Pensiones",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 45,
+    "codactividad": "3.2.05",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Restaurantes y otros afines",
+    "rotulocomercial": "Snaks",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 46,
+    "codactividad": "3.2.06",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Restaurantes y otros afines",
+    "rotulocomercial": "Reposterias y Confiterias",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 47,
+    "codactividad": "3.2.07",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Restaurantes y otros afines",
+    "rotulocomercial": "Panaderias",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 48,
+    "codactividad": "3.2.08",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Restaurantes y otros afines",
+    "rotulocomercial": "Heladerias y cafes",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 49,
+    "codactividad": "3.2.09",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Restaurantes y otros afines",
+    "rotulocomercial": "Kioscos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 50,
+    "codactividad": "3.3",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios de Esparcimiento y Diversion",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 51,
+    "codactividad": "3.3.01",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios de Esparcimiento y Diversion",
+    "rotulocomercial": "Casas de Juego",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 52,
+    "codactividad": "3.3.02",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios de Esparcimiento y Diversion",
+    "rotulocomercial": "Billares",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 53,
+    "codactividad": "3.3.03",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios de Esparcimiento y Diversion",
+    "rotulocomercial": "Salon de Juegos electronicos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 54,
+    "codactividad": "3.3.04",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios de Esparcimiento y Diversion",
+    "rotulocomercial": "Canchas de Fronton, Wally",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 55,
+    "codactividad": "3.3.05",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios de Esparcimiento y Diversion",
+    "rotulocomercial": "Cines",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 56,
+    "codactividad": "3.4",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios Sociales y de Ensenanza",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 57,
+    "codactividad": "3.4.01",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios Sociales y de Ensenanza",
+    "rotulocomercial": "Institutos de Ensenianza",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 58,
+    "codactividad": "3.4.02",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios Sociales y de Ensenanza",
+    "rotulocomercial": "Gimnasios",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 59,
+    "codactividad": "3.4.03",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios Sociales y de Ensenanza",
+    "rotulocomercial": "Guarderias",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 60,
+    "codactividad": "3.4.04",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios Sociales y de Ensenanza",
+    "rotulocomercial": "Otros Afines no especificados",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 61,
+    "codactividad": "3.5",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios Profesionales",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 62,
+    "codactividad": "3.5.01",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios Profesionales",
+    "rotulocomercial": "Juridicos Abogados",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 63,
+    "codactividad": "3.5.02",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios Profesionales",
+    "rotulocomercial": "Disenio y Construccion",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 64,
+    "codactividad": "3.5.03",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios Profesionales",
+    "rotulocomercial": "Medicos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 65,
+    "codactividad": "3.5.04",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios Profesionales",
+    "rotulocomercial": "Odontologicos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 66,
+    "codactividad": "3.5.05",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios Profesionales",
+    "rotulocomercial": "Farmacias y otros similares",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 67,
+    "codactividad": "3.5.06",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios Profesionales",
+    "rotulocomercial": "Veterinarias",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 68,
+    "codactividad": "3.5.07",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios Profesionales",
+    "rotulocomercial": "Otros afines no especificados",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 69,
+    "codactividad": "3.6",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios en general",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 70,
+    "codactividad": "3.6.01",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios en general",
+    "rotulocomercial": "Estacion de Servicios(surtidores)",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 71,
+    "codactividad": "3.6.02",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios en general",
+    "rotulocomercial": "De Telecomunicacion",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 72,
+    "codactividad": "3.6.03",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios en general",
+    "rotulocomercial": "Servicio de Amplificacion",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 73,
+    "codactividad": "3.6.04",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios en general",
+    "rotulocomercial": "Suministro de Energia Electrica",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 74,
+    "codactividad": "3.6.05",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios en general",
+    "rotulocomercial": "Cabinas Telefonicas",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 75,
+    "codactividad": "3.6.06",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios en general",
+    "rotulocomercial": "Centros de Internet y Juegos en Red",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 76,
+    "codactividad": "3.6.07",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios en general",
+    "rotulocomercial": "Servicio de Fotocopias y Afines",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 77,
+    "codactividad": "3.6.08",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios en general",
+    "rotulocomercial": "Funerarias",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 78,
+    "codactividad": "3.6.09",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios en general",
+    "rotulocomercial": "Sastrerias, Modistas y Afines",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 79,
+    "codactividad": "3.6.10",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios en general",
+    "rotulocomercial": "Peluquerias",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 80,
+    "codactividad": "3.6.11",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios en general",
+    "rotulocomercial": "Mingitorios y Duchas",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 81,
+    "codactividad": "3.6.12",
+    "tipoactividad": "MICROEMPRESARIAL",
+    "descripcionactividad": "Servicios en general",
+    "rotulocomercial": "Laboratorios Fotograficos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 82,
+    "codactividad": "4",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 83,
+    "codactividad": "4.1",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 84,
+    "codactividad": "4.1.01",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Venta de Motorizados",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 85,
+    "codactividad": "4.1.02",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Venta de Maquinarias, motores",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 86,
+    "codactividad": "4.1.03",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Venta de Celulares",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 87,
+    "codactividad": "4.1.04",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Agencia de Bebidas Alcoholicas y gaseosas",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 88,
+    "codactividad": "4.1.05",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Distribuidora de bebidas alcoholicas y gaseosas",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 89,
+    "codactividad": "4.1.06",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Disribuidora y/o agencias de bebidas(No alcoholicas)",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 90,
+    "codactividad": "4.1.07",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Distribuidora y/o agencias de productos derivados de los hidrocarburos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 91,
+    "codactividad": "4.1.08",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Distribuidora de Productos quimicos(abonos, fertilizantes, etc)",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 92,
+    "codactividad": "4.1.09",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Ferreterias",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 93,
+    "codactividad": "4.1.10",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Venta de Electrodomesticos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 94,
+    "codactividad": "4.1.11",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Almacenes y Abarrotes por mayor",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 95,
+    "codactividad": "4.1.12",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Comercializacion de Coca",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 96,
+    "codactividad": "4.1.13",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Agencias de Lacteos",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 97,
+    "codactividad": "4.1.14",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Venta de Repuestos en General",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 98,
+    "codactividad": "4.1.15",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Mayorista",
+    "rotulocomercial": "Otras no Especificadas",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 99,
+    "codactividad": "4.2",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 100,
+    "codactividad": "4.2.01",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Relojes",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 101,
+    "codactividad": "4.2.02",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Joyerias",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 102,
+    "codactividad": "4.2.03",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Carnicerias",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 103,
+    "codactividad": "4.2.04",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Video Club y Venta de DVD",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 104,
+    "codactividad": "4.2.05",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Venta de Lubricantes, carburantes",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 105,
+    "codactividad": "4.2.06",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Almacenes, tiendas de dulces, abarrotes",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 106,
+    "codactividad": "4.2.07",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Muebleria- Venta de Muebles en General",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 107,
+    "codactividad": "4.2.08",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Vidrierias",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 108,
+    "codactividad": "4.2.09",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Librerias",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 109,
+    "codactividad": "4.2.10",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Cotillonerias",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 110,
+    "codactividad": "4.2.11",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Serigrafias",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 111,
+    "codactividad": "4.2.12",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Venta de verduras",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 112,
+    "codactividad": "4.2.13",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Sahumerios",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 113,
+    "codactividad": "4.2.14",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Venta de Prensdas de Vestir",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 114,
+    "codactividad": "4.2.15",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Pulperias y Tiendas",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 115,
+    "codactividad": "4.2.16",
+    "tipoactividad": "COMERCIO EN GENERAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": "Otras no especificadas",
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 116,
+    "codactividad": "5",
+    "tipoactividad": "ACTIVIDADES INDEPENDIENTES Y PROFESIONALES",
+    "descripcionactividad": null,
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 117,
+    "codactividad": "5.1",
+    "tipoactividad": "ACTIVIDADES INDEPENDIENTES Y PROFESIONALES",
+    "descripcionactividad": "Contratistas Obras",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 118,
+    "codactividad": "5.2",
+    "tipoactividad": "ACTIVIDADES INDEPENDIENTES Y PROFESIONALES",
+    "descripcionactividad": "Notarias de fe Publica",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 119,
+    "codactividad": "5.3",
+    "tipoactividad": "ACTIVIDADES INDEPENDIENTES Y PROFESIONALES",
+    "descripcionactividad": "Servicios de Seguridad y Vigilancia",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 120,
+    "codactividad": "6",
+    "tipoactividad": "CENTRO DE CLUBES NOCTURNOS Y SIMILAR",
+    "descripcionactividad": null,
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 121,
+    "codactividad": "6.1",
+    "tipoactividad": "CENTRO DE CLUBES NOCTURNOS Y SIMILARES",
+    "descripcionactividad": "Clubes Nocturnos",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 122,
+    "codactividad": "6.2",
+    "tipoactividad": "CENTRO DE CLUBES NOCTURNOS Y SIMILARES",
+    "descripcionactividad": "Whiskerias, diskotecas y karaokes",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "1"
+  },
+  {
+    "id": 123,
+    "codactividad": "7",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": null,
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 124,
+    "codactividad": "7.1",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "EXPOSITORES",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 125,
+    "codactividad": "7.1.01",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "EXPOSITORES",
+    "rotulocomercial": "Empresas Privadas",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 126,
+    "codactividad": "7.1.02",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "EXPOSITORES",
+    "rotulocomercial": "Empresas Públicas",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 127,
+    "codactividad": "7.1.03",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "EXPOSITORES",
+    "rotulocomercial": "Asociaciones Productivas",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 128,
+    "codactividad": "7.1.04",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "EXPOSITORES",
+    "rotulocomercial": "Productores Orgánicos",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 129,
+    "codactividad": "7.1.05",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "EXPOSITORES",
+    "rotulocomercial": "Productores Agrícolas",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 130,
+    "codactividad": "7.1.06",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "EXPOSITORES",
+    "rotulocomercial": "Casas Comerciales",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 131,
+    "codactividad": "7.1.07",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "EXPOSITORES",
+    "rotulocomercial": "Instituciones Financieras",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 132,
+    "codactividad": "7.1.08",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "EXPOSITORES",
+    "rotulocomercial": "Artesanos",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 133,
+    "codactividad": "7.1.09",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "EXPOSITORES",
+    "rotulocomercial": "Otros no contemplados",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 134,
+    "codactividad": "7.2",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "VENDEDORES Y SERVICIOS",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 135,
+    "codactividad": "7.2.01",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "VENDEDORES Y SERVICIOS",
+    "rotulocomercial": "Venta de Platos",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 136,
+    "codactividad": "7.2.02",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "VENDEDORES Y SERVICIOS",
+    "rotulocomercial": "Venta de Anticuchos y chorizos",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 137,
+    "codactividad": "7.2.03",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "VENDEDORES Y SERVICIOS",
+    "rotulocomercial": "Venta de Bebidas alcohólicas, refrescos, gaseosas, licuados",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 138,
+    "codactividad": "7.2.04",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "VENDEDORES Y SERVICIOS",
+    "rotulocomercial": "Venta de Rosquetes, tostados, frutas y otros",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 139,
+    "codactividad": "7.2.05",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "VENDEDORES Y SERVICIOS",
+    "rotulocomercial": "Venta de alasitas, artesanías, velas, sahumerios y otros",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 140,
+    "codactividad": "7.2.06",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "VENDEDORES Y SERVICIOS",
+    "rotulocomercial": "Juegos de Sorteos y similares",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 141,
+    "codactividad": "7.2.07",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "VENDEDORES Y SERVICIOS",
+    "rotulocomercial": "Adornadores de Vehículos",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 142,
+    "codactividad": "7.2.08",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "VENDEDORES Y SERVICIOS",
+    "rotulocomercial": "Venta de CDs-DVDs",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 143,
+    "codactividad": "7.3",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "VIVANDEROS Y AMBULANTES",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 144,
+    "codactividad": "7.3.01",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "VIVANDEROS Y AMBULANTES",
+    "rotulocomercial": "Fotógrafos",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 145,
+    "codactividad": "7.3.02",
+    "tipoactividad": "EXPOSITORES",
+    "descripcionactividad": "VIVANDEROS Y AMBULANTES",
+    "rotulocomercial": "Heladeros",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 146,
+    "codactividad": "8",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": null,
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 147,
+    "codactividad": "8.1",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR TEMPORADA",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 148,
+    "codactividad": "8.1.01",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR TEMPORADA",
+    "rotulocomercial": "Espectáculos públicos deportivos, cómicos, profesionales en general (temporada)",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 149,
+    "codactividad": "8.1.02",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR TEMPORADA",
+    "rotulocomercial": "Espectáculos teatrales, musicales, veladas educativas, culturales y religiosas (temporada)",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 150,
+    "codactividad": "8.2",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR DIA",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 151,
+    "codactividad": "8.2.01",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR DIA",
+    "rotulocomercial": "Otras no clasificadas (día)",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 152,
+    "codactividad": "8.2.02",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR DIA",
+    "rotulocomercial": "Circos y similares (día)",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 153,
+    "codactividad": "8.2.03",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR DIA",
+    "rotulocomercial": "Bingos y similares (día)",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 154,
+    "codactividad": "8.2.04",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR DIA",
+    "rotulocomercial": "Juegos de Carrusel (día)",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 155,
+    "codactividad": "8.2.05",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR DIA",
+    "rotulocomercial": "Juegos de billares (día)",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 156,
+    "codactividad": "8.2.06",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR DIA",
+    "rotulocomercial": "Juegos mecánicos (día)",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 157,
+    "codactividad": "8.2.07",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR DIA",
+    "rotulocomercial": "Juegos de futbolín (día)",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 158,
+    "codactividad": "8.2.08",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR DIA",
+    "rotulocomercial": "Juegos de resbalín (día)",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 159,
+    "codactividad": "8.3",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR EVENTO",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 160,
+    "codactividad": "8.3.01",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR EVENTO",
+    "rotulocomercial": "Conjuntos, orquestas, bandas de música y similares (evento)",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 161,
+    "codactividad": "8.3.02",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR EVENTO",
+    "rotulocomercial": "Bailes en fechas especiales (evento)",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 162,
+    "codactividad": "8.3.03",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR EVENTO",
+    "rotulocomercial": "Bailes en fechas ordinarias (evento)",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 163,
+    "codactividad": "8.3.04",
+    "tipoactividad": "ACTIVIDADES PUBLICAS",
+    "descripcionactividad": "ACTIVIDADES POR EVENTO",
+    "rotulocomercial": "Fiestas sociales (evento)",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 164,
+    "codactividad": "9",
+    "tipoactividad": "PUBLICIDAD Y PROPAGANDA",
+    "descripcionactividad": null,
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 165,
+    "codactividad": "9.1",
+    "tipoactividad": "PUBLICIDAD Y PROPAGANDA",
+    "descripcionactividad": "PUBLICIDAD DE PROMOCION Y PROPAGANDA",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 166,
+    "codactividad": "9.1.01",
+    "tipoactividad": "PUBLICIDAD Y PROPAGANDA",
+    "descripcionactividad": "PUBLICIDAD DE PROMOCION Y PROPAGANDA",
+    "rotulocomercial": "De dos caras",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 167,
+    "codactividad": "9.1.02",
+    "tipoactividad": "PUBLICIDAD Y PROPAGANDA",
+    "descripcionactividad": "PUBLICIDAD DE PROMOCION Y PROPAGANDA",
+    "rotulocomercial": "De una cara",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 168,
+    "codactividad": "9.1.03",
+    "tipoactividad": "PUBLICIDAD Y PROPAGANDA",
+    "descripcionactividad": "PUBLICIDAD DE PROMOCION Y PROPAGANDA",
+    "rotulocomercial": "Murales",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 169,
+    "codactividad": "9.2",
+    "tipoactividad": "PUBLICIDAD Y PROPAGANDA",
+    "descripcionactividad": "LETREROS SIMPLES, LIENZOS",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 170,
+    "codactividad": "9.2.01",
+    "tipoactividad": "PUBLICIDAD Y PROPAGANDA",
+    "descripcionactividad": "LETREROS SIMPLES, LIENZOS",
+    "rotulocomercial": "De dos caras",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 171,
+    "codactividad": "9.2.02",
+    "tipoactividad": "PUBLICIDAD Y PROPAGANDA",
+    "descripcionactividad": "LETREROS SIMPLES, LIENZOS",
+    "rotulocomercial": "De una cara",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 172,
+    "codactividad": "9.2.03",
+    "tipoactividad": "PUBLICIDAD Y PROPAGANDA",
+    "descripcionactividad": "LETREROS SIMPLES, LIENZOS",
+    "rotulocomercial": "Murales",
+    "montoactividad": "200.00",
+    "codpatente": "2"
+  },
+  {
+    "id": 173,
+    "codactividad": "10",
+    "tipoactividad": "PATENTE UNICA MUNICIPAL",
+    "descripcionactividad": null,
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "3"
+  },
+  {
+    "id": 174,
+    "codactividad": "10.1",
+    "tipoactividad": "PATENTE UNICA MUNICIPAL",
+    "descripcionactividad": "Comercio Minorista",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "3"
+  },
+  {
+    "id": 175,
+    "codactividad": "10.2",
+    "tipoactividad": "PATENTE UNICA MUNICIPAL",
+    "descripcionactividad": "Artesanos",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "3"
+  },
+  {
+    "id": 176,
+    "codactividad": "10.3",
+    "tipoactividad": "PATENTE UNICA MUNICIPAL",
+    "descripcionactividad": "Vivanderos",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "3"
+  },
+  {
+    "id": 177,
+    "codactividad": "11",
+    "tipoactividad": "PATENTE TEMPORAL",
+    "descripcionactividad": null,
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "4"
+  },
+  {
+    "id": 178,
+    "codactividad": "11.1",
+    "tipoactividad": "PATENTE TEMPORAL",
+    "descripcionactividad": "EVENTUALES O TEMPORALES (Sentajes Semanales)",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "4"
+  },
+  {
+    "id": 179,
+    "codactividad": "11.1.01",
+    "tipoactividad": "PATENTE TEMPORAL",
+    "descripcionactividad": "EVENTUALES O TEMPORALES (Sentajes Semanales)",
+    "rotulocomercial": "Actividades eventuales",
+    "montoactividad": "200.00",
+    "codpatente": "4"
+  },
+  {
+    "id": 180,
+    "codactividad": "11.1.02",
+    "tipoactividad": "PATENTE TEMPORAL",
+    "descripcionactividad": "EVENTUALES O TEMPORALES (Sentajes Semanales)",
+    "rotulocomercial": "Comercialización de Productos Abarrotes, Frutas",
+    "montoactividad": "200.00",
+    "codpatente": "4"
+  },
+  {
+    "id": 181,
+    "codactividad": "11.1.03",
+    "tipoactividad": "PATENTE TEMPORAL",
+    "descripcionactividad": "EVENTUALES O TEMPORALES (Sentajes Semanales)",
+    "rotulocomercial": "Comercialización de Productos Lácteos, Carnes, Material de Construcción y Bebidas",
+    "montoactividad": "200.00",
+    "codpatente": "4"
+  },
+  {
+    "id": 182,
+    "codactividad": "11.2",
+    "tipoactividad": "PATENTE TEMPORAL",
+    "descripcionactividad": "EVENTUALES O TEMPORALES (Sentajes Diarios)",
+    "rotulocomercial": null,
+    "montoactividad": "200.00",
+    "codpatente": "4"
+  },
+  {
+    "id": 183,
+    "codactividad": "11.2.01",
+    "tipoactividad": "PATENTE TEMPORAL",
+    "descripcionactividad": "EVENTUALES O TEMPORALES (Sentajes Diarios)",
+    "rotulocomercial": "Actividades eventuales",
+    "montoactividad": "200.00",
+    "codpatente": "4"
+  },
+  {
+    "id": 184,
+    "codactividad": "11.2.02",
+    "tipoactividad": "PATENTE TEMPORAL",
+    "descripcionactividad": "EVENTUALES O TEMPORALES (Sentajes Diarios)",
+    "rotulocomercial": "Comercialización de Productos Abarrotes, Frutas",
+    "montoactividad": "200.00",
+    "codpatente": "4"
+  },
+  {
+    "id": 185,
+    "codactividad": "11.2.03",
+    "tipoactividad": "PATENTE TEMPORAL",
+    "descripcionactividad": "EVENTUALES O TEMPORALES (Sentajes Diarios)",
+    "rotulocomercial": "Comercialización de Productos Lácteos, Carnes, Material de Construcción y Bebidas",
+    "montoactividad": "200.00",
+    "codpatente": "4"
+  }
+]
