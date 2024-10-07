@@ -20,7 +20,7 @@ const AddUser = ({ onAdd }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     onAdd(formData);
-    Swal.fire("Éxito", "Estudiante agregado correctamente.", "success");
+    Swal.fire("Éxito", "Usuario agregado correctamente.", "success");
     setFormData({
       name: "",
       email: "",
@@ -78,7 +78,7 @@ const AddUser = ({ onAdd }) => {
         className="border p-2 mb-2 w-full"
       />
       <button type="submit" className="bg-blue-500 text-white p-2 rounded">
-        Agregar Estudiante
+        Agregar Nuevo Usuario
       </button>
     </form>
   );
