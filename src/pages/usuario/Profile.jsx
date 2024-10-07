@@ -12,9 +12,7 @@ function Profile({ student }) {
           <p className="text-gray-600">Fecha de Admisión: {student.dateOfAdmission}</p>
         </div>
       </div>
-      <button className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
-        Ver Detalles
-      </button>
+    
     </div>
   );
 }

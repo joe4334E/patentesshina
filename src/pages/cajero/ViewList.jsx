@@ -1,9 +1,92 @@
 import React, { useState } from "react";
+import Swal from "sweetalert2";
+
+const AddUser = ({ onAdd }) => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    enrollNumber: "",
+    dateOfAdmission: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    onAdd(formData);
+    Swal.fire("Éxito", "Estudiante agregado correctamente.", "success");
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      enrollNumber: "",
+      dateOfAdmission: "",
+    });
+  };
+
+  return (
+    <form onSubmit={handleSubmit} className="mb-4 bg-white p-4 rounded-lg shadow">
+      <input
+        type="text"
+        name="name"
+        placeholder="Nombre"
+        value={formData.name}
+        onChange={handleChange}
+        required
+        className="border p-2 mb-2 w-full"
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        value={formData.email}
+        onChange={handleChange}
+        required
+        className="border p-2 mb-2 w-full"
+      />
+      <input
+        type="text"
+        name="phone"
+        placeholder="Teléfono"
+        value={formData.phone}
+        onChange={handleChange}
+        required
+        className="border p-2 mb-2 w-full"
+      />
+      <input
+        type="text"
+        name="enrollNumber"
+        placeholder="Número de Matrícula"
+        value={formData.enrollNumber}
+        onChange={handleChange}
+        required
+        className="border p-2 mb-2 w-full"
+      />
+      <input
+        type="text"
+        name="dateOfAdmission"
+        placeholder="Fecha de Admisión"
+        value={formData.dateOfAdmission}
+        onChange={handleChange}
+        required
+        className="border p-2 mb-2 w-full"
+      />
+      <button type="submit" className="bg-blue-500 text-white p-2 rounded">
+        Agregar Estudiante
+      </button>
+    </form>
+  );
+};
 
 const ViewList = () => {
   const [isAddStudentOpen, setIsAddStudentOpen] = useState(false);
-
-  const students = [
+  const [students, setStudents] = useState([
     {
       name: "Alice Smith",
       email: "alice@gmail.com",
@@ -11,113 +94,45 @@ const ViewList = () => {
       enrollNumber: "123456730547761",
       dateOfAdmission: "10-Jan, 2022",
     },
-    {
-      name: "Bob Johnson",
-      email: "bob@gmail.com",
-      phone: "9876543211",
-      enrollNumber: "123456730547762",
-      dateOfAdmission: "15-Feb, 2022",
-    },
-    {
-      name: "Catherine Lee",
-      email: "catherine@gmail.com",
-      phone: "9876543212",
-      enrollNumber: "123456730547763",
-      dateOfAdmission: "20-Mar, 2022",
-    },
-    {
-      name: "David Kim",
-      email: "david@gmail.com",
-      phone: "9876543213",
-      enrollNumber: "123456730547764",
-      dateOfAdmission: "05-Apr, 2022",
-    },
-    {
-      name: "Eva Brown",
-      email: "eva@gmail.com",
-      phone: "9876543214",
-      enrollNumber: "123456730547765",
-      dateOfAdmission: "15-May, 2022",
-    },
-    {
-      name: "Frank White",
-      email: "frank@gmail.com",
-      phone: "9876543215",
-      enrollNumber: "123456730547766",
-      dateOfAdmission: "22-Jun, 2022",
-    },
-    {
-      name: "Grace Davis",
-      email: "grace@gmail.com",
-      phone: "9876543216",
-      enrollNumber: "123456730547767",
-      dateOfAdmission: "30-Jul, 2022",
-    },
-    {
-      name: "Henry Wilson",
-      email: "henry@gmail.com",
-      phone: "9876543217",
-      enrollNumber: "123456730547768",
-      dateOfAdmission: "12-Aug, 2022",
-    },
-    {
-      name: "Isabel Martinez",
-      email: "isabel@gmail.com",
-      phone: "9876543218",
-      enrollNumber: "123456730547769",
-      dateOfAdmission: "21-Sep, 2022",
-    },
-    {
-      name: "Jake Anderson",
-      email: "jake@gmail.com",
-      phone: "9876543219",
-      enrollNumber: "123456730547770",
-      dateOfAdmission: "30-Oct, 2022",
-    },
-    {
-      name: "Laura Thompson",
-      email: "laura@gmail.com",
-      phone: "9876543220",
-      enrollNumber: "123456730547771",
-      dateOfAdmission: "05-Nov, 2022",
-    },
-    {
-      name: "Michael Garcia",
-      email: "michael@gmail.com",
-      phone: "9876543221",
-      enrollNumber: "123456730547772",
-      dateOfAdmission: "12-Dec, 2022",
-    },
-    {
-      name: "Nina Rodriguez",
-      email: "nina@gmail.com",
-      phone: "9876543222",
-      enrollNumber: "123456730547773",
-      dateOfAdmission: "18-Jan, 2023",
-    },
-    {
-      name: "Oscar Hernandez",
-      email: "oscar@gmail.com",
-      phone: "9876543223",
-      enrollNumber: "123456730547774",
-      dateOfAdmission: "25-Feb, 2023",
-    },
-  ];
+    // ...otros estudiantes
+  ]);
 
   const toggleAddStudentForm = () => {
     setIsAddStudentOpen(!isAddStudentOpen);
+  };
+
+  const handleAddStudent = (newStudent) => {
+    setStudents((prev) => [...prev, newStudent]);
+  };
+
+  const handleDeleteStudent = (index) => {
+    Swal.fire({
+      title: "¿Estás seguro?",
+      text: "¿Deseas eliminar este estudiante?",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonText: "Sí, eliminar",
+      cancelButtonText: "No, cancelar",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        setStudents((prev) => prev.filter((_, i) => i !== index));
+        Swal.fire("Eliminado", "Estudiante eliminado correctamente.", "success");
+      }
+    });
   };
 
   return (
     <div className="p-6 bg-gray-100">
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold">LISTA DE USUARIOS</h1>
-        <div className="flex items-center space-x-4">
-
-        
-        </div>
+        <button
+          onClick={toggleAddStudentForm}
+          className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300"
+        >
+          {isAddStudentOpen ? "Cancelar" : "Agregar Estudiante"}
+        </button>
       </div>
-      {isAddStudentOpen && <AddUser />} {/* Mostrar el formulario si está abierto */}
+      {isAddStudentOpen && <AddUser onAdd={handleAddStudent} />}
       <div className="bg-white rounded-lg shadow overflow-x-auto">
         <table className="min-w-full">
           <thead className="bg-gray-50">
@@ -177,7 +192,10 @@ const ViewList = () => {
                       />
                     </svg>
                   </button>
-                  <button className="text-red-600 hover:text-red-900">
+                  <button
+                    onClick={() => handleDeleteStudent(index)}
+                    className="text-red-600 hover:text-red-900"
+                  >
                     <svg
                       className="w-5 h-5"
                       fill="none"

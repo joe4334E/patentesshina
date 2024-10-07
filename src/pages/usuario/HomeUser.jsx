@@ -8,7 +8,7 @@ function HomeUser() {
     email: "efraincolquee@gmail.com",
     phone: "72245309",
     dateOfAdmission: "08-oct, 2024",
-    image: "/api/placeholder/50/50",
+    image: "https://avatar.iran.liara.run/public/job/farmer/male",
   };
 
   return (

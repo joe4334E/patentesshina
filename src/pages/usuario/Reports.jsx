@@ -3,6 +3,7 @@ import { Download, FileText } from 'lucide-react';
 import * as XLSX from 'xlsx';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
+import Swal from 'sweetalert2'; // Import SweetAlert
 
 function Reports() {
   const reports = [
@@ -21,7 +22,12 @@ function Reports() {
   const [selectedReports, setSelectedReports] = useState([]);
   const [filter, setFilter] = useState({ date: '', type: '' });
 
-  const exportToPDF = (data) => {
+  const exportToPDF = async (data) => {
+    if (data.length === 0) {
+      Swal.fire('Error', 'No hay informes seleccionados para exportar.', 'error');
+      return;
+    }
+    
     const doc = new jsPDF();
     doc.text("Trámites del Usuario", 14, 16);
     doc.autoTable({
@@ -30,26 +36,41 @@ function Reports() {
       startY: 22,
     });
     doc.save('tramites_usuario.pdf');
+    Swal.fire('Éxito', 'Informe exportado a PDF.', 'success');
   };
 
-  const exportToExcel = (data) => {
+  const exportToExcel = async (data) => {
+    if (data.length === 0) {
+      Swal.fire('Error', 'No hay informes seleccionados para exportar.', 'error');
+      return;
+    }
+
     const ws = XLSX.utils.json_to_sheet(data);
     const wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, "Trámites");
     XLSX.writeFile(wb, "tramites_usuario.xlsx");
+    Swal.fire('Éxito', 'Informe exportado a Excel.', 'success');
   };
 
   const handleSelectReport = (report) => {
-    if (selectedReports.includes(report)) {
-      setSelectedReports(selectedReports.filter(r => r !== report));
-    } else {
-      setSelectedReports([...selectedReports, report]);
-    }
+    setSelectedReports(prevSelected => 
+      prevSelected.includes(report)
+        ? prevSelected.filter(r => r !== report)
+        : [...prevSelected, report]
+    );
   };
 
   const handleFilterChange = (e) => {
     const { name, value } = e.target;
     setFilter({ ...filter, [name]: value });
+  };
+
+  const handleSelectAll = (e) => {
+    if (e.target.checked) {
+      setSelectedReports(filteredReports);
+    } else {
+      setSelectedReports([]);
+    }
   };
 
   const filteredReports = reports.filter(report => {
@@ -92,13 +113,8 @@ function Reports() {
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
               <input
                 type="checkbox"
-                onChange={(e) => {
-                  if (e.target.checked) {
-                    setSelectedReports(filteredReports);
-                  } else {
-                    setSelectedReports([]);
-                  }
-                }}
+                onChange={handleSelectAll}
+                checked={selectedReports.length === filteredReports.length}
               />
             </th>
             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Fecha</th>

@@ -26,7 +26,6 @@ const DashboardUsuario = () => {
   // Definición de los elementos del menú
   const menuItems = [
     { title: "Home", icon: Home, link: "/usuario/home" },
-    { title: "Perfil de Usuario", icon: User, link: "/usuario/perfil" },
     { title: "Reportes", icon: FileText, link: "/usuario/reportes" },
   ];
 
