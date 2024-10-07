@@ -6,8 +6,9 @@ import Swal from 'sweetalert2'; // Importar SweetAlert2
 const users = [
   { id: 1, correo: "admin1@example.com", password: "password123", roleid: "admin" },
   { id: 2, correo: "admin2@example.com", password: "password123", roleid: "admin" },
-  { id: 3, correo: "cashier1@example.com", password: "password123", roleid: "cashier" },
+  { id: 3, correo: "bob@gmail.com", password: "password123", roleid: "cashier" },
   { id: 4, correo: "user1@example.com", password: "password123", roleid: "user" },
+  { id: 5, correo: "efraincolquee@gmail.com", password: "123password", roleid: "user" },
   // ... Agrega más usuarios según sea necesario
 ];
 

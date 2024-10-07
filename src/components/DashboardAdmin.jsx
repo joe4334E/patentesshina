@@ -40,7 +40,7 @@ const DashboardAdmin = () => {
       icon: FileText,
       submenu: [
         { title: "Tramites", link: "/admin/tramites/" },
-        { title: "Reportes", link: "/admin/reportes" },
+        
       ],
     },
   ];
