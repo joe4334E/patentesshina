@@ -94,7 +94,7 @@ const ViewList = () => {
       enrollNumber: "123456730547761",
       dateOfAdmission: "10-Jan, 2022",
     },
-    // ...otros estudiantes
+    // ...otros usuarios
   ]);
 
   const toggleAddStudentForm = () => {
@@ -108,7 +108,7 @@ const ViewList = () => {
   const handleDeleteStudent = (index) => {
     Swal.fire({
       title: "¿Estás seguro?",
-      text: "¿Deseas eliminar este estudiante?",
+      text: "¿Deseas eliminar este usuario?",
       icon: "warning",
       showCancelButton: true,
       confirmButtonText: "Sí, eliminar",
@@ -116,7 +116,7 @@ const ViewList = () => {
     }).then((result) => {
       if (result.isConfirmed) {
         setStudents((prev) => prev.filter((_, i) => i !== index));
-        Swal.fire("Eliminado", "Estudiante eliminado correctamente.", "success");
+        Swal.fire("Eliminado", "Usuario eliminado correctamente.", "success");
       }
     });
   };
@@ -129,7 +129,7 @@ const ViewList = () => {
           onClick={toggleAddStudentForm}
           className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300"
         >
-          {isAddStudentOpen ? "Cancelar" : "Agregar Estudiante"}
+          {isAddStudentOpen ? "Cancelar" : "Agregar Usuario"}
         </button>
       </div>
       {isAddStudentOpen && <AddUser onAdd={handleAddStudent} />}
