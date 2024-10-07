@@ -1,6 +1,7 @@
 import '../App.css';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Swal from 'sweetalert2'; // Importar SweetAlert2
 
 const users = [
   { id: 1, correo: "admin1@example.com", password: "password123", roleid: "admin" },
@@ -13,25 +14,30 @@ const users = [
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
   const navigate = useNavigate(); // Para la navegación
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     
     if (!email || !password) {
-      setError('Por favor complete todos los campos.');
+      Swal.fire({
+        icon: 'warning',
+        title: 'Campos incompletos',
+        text: 'Por favor complete todos los campos.',
+      });
       return;
     }
-    
-    setError('');
     
     // Buscar usuario en el array de usuarios
     const user = users.find(user => user.correo === email && user.password === password);
 
     if (user) {
-      // Guardar información de sesión si es necesario (ej: token)
-      // localStorage.setItem('token', user.token);
+      // Alerta de éxito
+      await Swal.fire({
+        icon: 'success',
+        title: 'Inicio de sesión exitoso',
+        text: 'Bienvenido al sistema!',
+      });
 
       // Redirigir según el rol
       switch (user.roleid) {
@@ -48,7 +54,12 @@ const Login = () => {
           break;
       }
     } else {
-      setError('Error al iniciar sesión. Verifique sus credenciales.');
+      // Alerta de error
+      Swal.fire({
+        icon: 'error',
+        title: 'Error al iniciar sesión',
+        text: 'Verifique sus credenciales.',
+      });
     }
   };
 
@@ -60,8 +71,6 @@ const Login = () => {
         <h2 className="text-xl font-semibold mb-4 text-gray-700">INICIAR SESION</h2>
         <p className="text-sm text-gray-600 mb-6">Ingrese sus datos para el inicio al sistema</p>
         
-        {error && <p className="text-red-500 mb-4">{error}</p>} 
-
         <form className="space-y-6" onSubmit={handleSubmit}>
           <div>
             <input

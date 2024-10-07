@@ -17,7 +17,7 @@ export default function AddUser({ isOpen, onClose }) {
   });
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
+    const { name, value } = e.target; 
     setUserData((prevData) => ({ ...prevData, [name]: value }));
   };
 

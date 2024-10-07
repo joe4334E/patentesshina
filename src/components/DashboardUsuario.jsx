@@ -1,13 +1,14 @@
 import "../App.css";
 import React, { useState } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useNavigate } from "react-router-dom"; // Añadido useNavigate
 import { Menu, X, LogOut, Home, User, FileText, Sun, Moon } from "lucide-react";
+import Swal from 'sweetalert2'; // Importar SweetAlert2
 
 /**
  * Componente DashboardUsuario
- * 
- * Este componente representa el panel de control para los usuarios. 
- * Contiene una barra lateral para la navegación entre diferentes secciones de la aplicación 
+ *
+ * Este componente representa el panel de control para los usuarios.
+ * Contiene una barra lateral para la navegación entre diferentes secciones de la aplicación
  * y permite alternar entre modo claro y oscuro.
  */
 const DashboardUsuario = () => {
@@ -15,6 +16,7 @@ const DashboardUsuario = () => {
   const [isOpen, setIsOpen] = useState(false);
   // Estado para gestionar el modo oscuro
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const navigate = useNavigate(); // Para la navegación
 
   // Función para alternar la visibilidad de la barra lateral
   const toggleSidebar = () => setIsOpen(!isOpen);
@@ -27,6 +29,31 @@ const DashboardUsuario = () => {
     { title: "Perfil de Usuario", icon: User, link: "/usuario/perfil" },
     { title: "Reportes", icon: FileText, link: "/usuario/reportes" },
   ];
+
+  // Función para manejar el cierre de sesión
+  const handleLogout = async () => {
+    const result = await Swal.fire({
+      title: "¿Estás seguro?",
+      text: "¡No podrás revertir esto!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Sí, cerrar sesión",
+      cancelButtonText: "Cancelar",
+    });
+
+    if (result.isConfirmed) {
+      // Aquí puedes hacer cualquier acción de cierre de sesión, como limpiar el localStorage o el contexto
+      // localStorage.removeItem('token'); // Ejemplo de limpieza de token
+      navigate("/"); // Redirigir a la página de inicio o de inicio de sesión
+      Swal.fire(
+        "¡Cerraste sesión!",
+        "Has cerrado sesión correctamente.",
+        "success"
+      );
+    }
+  };
 
   return (
     <div
@@ -60,7 +87,7 @@ const DashboardUsuario = () => {
         {isOpen && (
           <div className="p-4 text-center">
             <img
-              src="/api/placeholder/100/100" // Imagen de avatar de usuario
+              src="https://avatar.iran.liara.run/public/job/farmer/male" // Imagen de avatar de usuario
               alt="Usuario Avatar"
               className="w-20 h-20 rounded-full mx-auto mb-2"
             />
@@ -90,15 +117,15 @@ const DashboardUsuario = () => {
         </nav>
 
         {/* Botón para cerrar sesión */}
-        <Link
-          to="/logout"
+        <button
+          onClick={handleLogout}
           className={`absolute bottom-4 left-4 flex items-center px-4 py-2 ${
             isDarkMode ? "bg-red-600" : "bg-red-500"
           } hover:bg-red-600 transition-all duration-300 rounded-full group overflow-hidden`}
         >
           <LogOut className="transition-transform duration-300 group-hover:translate-x-1" />
           {isOpen && <span className="ml-2">Cerrar Sesión</span>}
-        </Link>
+        </button>
       </div>
 
       {/* Contenedor para el contenido de las subrutas */}
