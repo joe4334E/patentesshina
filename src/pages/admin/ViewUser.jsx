@@ -27,26 +27,25 @@ const ViewUser = () => {
       setStudents(
         students.map((s) => (s.enrollNumber === student.enrollNumber ? student : s))
       );
-      Swal.fire("Success", "User updated successfully!", "success");
+      Swal.fire("Éxito", "Usuario actualizado con éxito!", "success");
     } else {
       setStudents([...students, student]);
-      Swal.fire("Success", "User added successfully!", "success");
+      Swal.fire("Éxito", "Usuario agregado con éxito!", "success");
     }
     toggleAddStudentForm();
   };
-
   const handleDeleteStudent = (enrollNumber) => {
     Swal.fire({
-      title: "Are you sure?",
-      text: "This will permanently delete the user.",
+      title: "¿Estás seguro?",
+      text: "Esto eliminará permanentemente al usuario.",
       icon: "warning",
       showCancelButton: true,
-      confirmButtonText: "Yes, delete it!",
-      cancelButtonText: "No, cancel!",
+      confirmButtonText: "Sí, eliminarlo!",
+      cancelButtonText: "No, cancelar!",
     }).then((result) => {
       if (result.isConfirmed) {
         setStudents(students.filter((s) => s.enrollNumber !== enrollNumber));
-        Swal.fire("Deleted!", "The user has been deleted.", "success");
+        Swal.fire("¡Eliminado!", "El usuario ha sido eliminado.", "success");
       }
     });
   };
